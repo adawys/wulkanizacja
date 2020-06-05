@@ -202,39 +202,7 @@ button {
 .tel {
     color: black;
 }
-/* .box-container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
-    width: 100%;   
-}
-.box-container > div:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
-.box {
-    position: relative;
-    background: #F1F1F1;
-    transition: 1s all;    
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.box-style {
-    font-size: 24px;
-    line-height: 28px;   
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-} */
+
 footer {
     background-color: #4e4e4e;
     margin: auto;
@@ -329,16 +297,6 @@ footer {
         flex-direction: inherit;
         padding: 0;
     }
-    /* .worker:nth-of-type(even) {
-        flex-direction: row-reverse;
-        text-align: right;
-    }
-    .worker:nth-of-type(even) .worker-img {
-        margin-left: 58px;
-    }  
-    .worker:nth-of-type(odd) .worker-img {
-        margin-right: 58px;
-    } */
     .box-container {
         display: grid;
         grid-template-columns: 49% 49%;
@@ -349,7 +307,7 @@ footer {
     .abaut-color{
         display: flex;
         flex-direction: column;
-    justify-content: center;
+        justify-content: center;
     }
     .map {
         width: 450px;
