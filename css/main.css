@@ -46,7 +46,10 @@ nav {
     left: 0;
     background: #4e4e4e;
 }
-list-show{
+.list-show{
+    display: inline-block;
+}
+.list.list-show {
     display: inline-block;
 }
 li {
@@ -54,9 +57,7 @@ li {
     align-items: center;
     flex-direction: column;
 }
-.first:focus + ul {
-    display: inline-block;
-}
+
 .text-nav {
     display: flex;
     flex-direction: column;
