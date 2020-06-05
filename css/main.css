@@ -46,7 +46,7 @@ nav {
     left: 0;
     background: #4e4e4e;
 }
-.list-show{
+.list-show {
     display: inline-block;
 }
 .list.list-show {
@@ -57,7 +57,6 @@ li {
     align-items: center;
     flex-direction: column;
 }
-
 .text-nav {
     display: flex;
     flex-direction: column;
@@ -67,7 +66,6 @@ li {
     line-height: 16px;
     text-decoration-style: none;
     color: white;
-    
 }
 a {
     text-decoration: none;
@@ -186,8 +184,6 @@ button {
 }
 .abaut-color {
     color: black;
-    
-
 }
 .abaut-view {
     display: flex;
@@ -196,7 +192,7 @@ button {
 }
 .map {
     width: 260px;
-    height:210px;
+    height: 210px;
     border-radius: 15%;
 }
 .tel {
@@ -208,7 +204,6 @@ footer {
     margin: auto;
 }
 .foot {
-
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -218,21 +213,24 @@ footer {
 .fa-ul {
     margin-left: 0;
 }
-
 @media screen and (min-width: 768px) {
     .container {
         margin-left: 32px;
         width: 90%;
     }
     .buttom {
-        padding: 0%;
+        padding: 0;
     }
     .first {
         display: none;
     }
+    
     ul {
         display: inherit;
         position: unset;
+    }
+    .list {
+        display: contents;
     }
     .nav {
         width: 100vw;
@@ -304,7 +302,7 @@ footer {
         grid-row-gap: 16px;
         width: 100%;
     }
-    .abaut-color{
+    .abaut-color {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -320,7 +318,6 @@ footer {
         align-items: center;
         justify-content: space-around;
     }
-
 }
 @media screen and (min-width: 1024px) {
     .container {
