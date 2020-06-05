@@ -38,13 +38,16 @@ nav {
     margin: 6px auto;
     max-width: 100%;
 }
-ul {
+.list {
     display: none;
     position: absolute;
     top: 50px;
     right: 0;
     left: 0;
     background: #4e4e4e;
+}
+list-show{
+    display: inline-block;
 }
 li {
     display: flex;
